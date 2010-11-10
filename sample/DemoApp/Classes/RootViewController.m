@@ -57,6 +57,11 @@ static NSString* kMAPISecret = @"SeCrEtKeY";
     self.message = [info objectForKey:@"message"];
     self.matches = [results objectForKey:@"matches"];
     
+    // When the status is "error" the message field possible values are:
+    // * "Connection failure"
+    // * "Request timed out"
+    // * "Authentication error", i.e. wrong API key / secret pair
+    // * "Internal error", for miscellaneous error
     if ([self.status isEqualToString:@"error"]) {
         [[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error", @"")
                                message:self.message
