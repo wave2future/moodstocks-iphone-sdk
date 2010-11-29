@@ -222,6 +222,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DemoApp_Prefix.pch;
 				INFOPLIST_FILE = "DemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../library\"",
@@ -232,6 +233,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = DemoApp;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -243,6 +245,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DemoApp_Prefix.pch;
 				INFOPLIST_FILE = "DemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../library\"",
@@ -253,6 +256,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = DemoApp;
+				SDKROOT = iphoneos4.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

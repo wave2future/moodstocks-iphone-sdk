@@ -2,7 +2,8 @@
 
 ## Overview
 
-Moodstocks iPhone SDK enables you to integrate image recognition into your iPhone mobile applications in seconds.
+Moodstocks iPhone SDK enables you to integrate image recognition into your iPhone mobile applications in seconds. It has been built to work on **iOS SDK 3.0 and higher**.
+
 Basically it wraps the native image picker component, and adds some magic like encoding, querying, and parsing.
 And you get a cool scanning effect for free!
 
@@ -20,8 +21,6 @@ To integrate Moodstocks iPhone SDK into your application:
 	*   `QuartzCore`
 	*   `libz.1.2.3`
 *   Click on the _Build_ tab, choose _All Configurations_ and add `-ObjC -all_load` for the _Other Linker Flags_ setting
-
-NOTE: it has been built to work on iOS SDK 3.2 and higher.
 
 You'll find an example application into `sample/DemoApp` which is properly configured.
 
