@@ -33,7 +33,7 @@
 
 @property(nonatomic, copy) NSString* status;
 @property(nonatomic, copy) NSString* message;
-@property(nonatomic, retain) NSArray* matches;
+@property(nonatomic, copy) NSArray* matches;
 
 - (void)takePicture;
 
