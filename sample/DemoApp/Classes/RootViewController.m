@@ -25,6 +25,7 @@
 
 /**
  * PLEASE MAKE SURE TO REPLACE WITH YOU KEY/SECRET PAIR
+ * PLEASE MAKE SURE TO REPLACE WITH YOUR KEY/SECRET PAIR
  *
  * For more details, please refer to:
  * http://github.com/Moodstocks/moodstocks-api-kits/wiki/Developer-documentation
