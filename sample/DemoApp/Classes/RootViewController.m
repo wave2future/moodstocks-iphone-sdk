@@ -24,7 +24,6 @@
 #import "RootViewController.h"
 
 /**
- * PLEASE MAKE SURE TO REPLACE WITH YOU KEY/SECRET PAIR
  * PLEASE MAKE SURE TO REPLACE WITH YOUR KEY/SECRET PAIR
  *
  * For more details, please refer to:
